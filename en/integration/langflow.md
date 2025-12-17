@@ -1,11 +1,11 @@
 ---
 title: LangFlow Workflows
-description: LangFlow workflow configurations and exports for Gamibot AI agents.
+description: LangFlow workflow configurations and exports for GamiBot AI agents.
 ---
 
 # LangFlow Workflows
 
-Each workflow in Gamibot is defined as a **LangFlow JSON configuration** that orchestrates the AI processing pipeline.
+Each workflow in GamiBot is defined as a **LangFlow JSON configuration** that orchestrates the AI processing pipeline.
 
 ---
 

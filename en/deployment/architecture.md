@@ -1,11 +1,11 @@
 ---
 title: Architecture
-description: Deployment architecture and infrastructure requirements for Gamibot.
+description: Deployment architecture and infrastructure requirements for GamiBot.
 ---
 
 # Deployment Architecture
 
-This page describes the production deployment architecture and infrastructure requirements for the Gamibot platform.
+This page describes the production deployment architecture and infrastructure requirements for the GamiBot platform.
 
 ---
 

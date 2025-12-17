@@ -1,6 +1,6 @@
 ---
 title: Doubt Clarification
-description: How Gamibot answers student questions using course-specific context.
+description: How GamiBot answers student questions using course-specific context.
 ---
 
 # Doubt Clarification Flow

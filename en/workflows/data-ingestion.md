@@ -1,6 +1,6 @@
 ---
 title: Data Ingestion Pipeline
-description: How Gamibot automatically ingests and processes course materials from Moodle.
+description: How GamiBot automatically ingests and processes course materials from Moodle.
 ---
 
 # Data Ingestion Pipeline

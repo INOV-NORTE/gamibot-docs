@@ -1,11 +1,11 @@
 ---
 title: Technologies
-description: Core technologies and key dependencies used in the Gamibot AI-enhanced Moodle platform.
+description: Core technologies and key dependencies used in the GamiBot AI-enhanced Moodle platform.
 ---
 
 # Core Technologies
 
-This page describes the technology stack and key dependencies that power the Gamibot platform.
+This page describes the technology stack and key dependencies that power the GamiBot platform.
 
 ---
 

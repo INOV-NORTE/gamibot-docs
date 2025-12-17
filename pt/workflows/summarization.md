@@ -1,6 +1,6 @@
 ---
 title: Sumarização de Conteúdo
-description: Como o Gamibot gera resumos personalizados de materiais de curso usando RAG.
+description: Como o GamiBot gera resumos personalizados de materiais de curso usando RAG.
 ---
 
 # Fluxo de Sumarização de Conteúdo

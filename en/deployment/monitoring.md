@@ -1,11 +1,11 @@
 ---
 title: Monitoring
-description: Monitoring, quality assurance, and testing strategies for Gamibot.
+description: Monitoring, quality assurance, and testing strategies for GamiBot.
 ---
 
 # Monitoring and Quality Assurance
 
-This page describes the monitoring setup, key metrics, and testing strategies for the Gamibot platform.
+This page describes the monitoring setup, key metrics, and testing strategies for the GamiBot platform.
 
 ---
 
@@ -84,7 +84,7 @@ def summarize_content(query, course_id):
 
 ```json
 {
-  "title": "Gamibot Overview",
+  "title": "GamiBot Overview",
   "panels": [
     {
       "title": "Chat Requests per Minute",

@@ -1,6 +1,6 @@
 ---
 title: Visão Geral
-description: Resumo executivo e arquitetura do sistema da plataforma de aprendizagem Moodle melhorada com IA Gamibot.
+description: Resumo executivo e arquitetura do sistema da plataforma de aprendizagem Moodle melhorada com IA GamiBot.
 ---
 
 # Visão Geral do Sistema

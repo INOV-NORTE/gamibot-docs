@@ -1,11 +1,11 @@
 ---
 title: Segurança e Privacidade
-description: Medidas de segurança e considerações de privacidade para a plataforma Gamibot.
+description: Medidas de segurança e considerações de privacidade para a plataforma GamiBot.
 ---
 
 # Segurança e Privacidade
 
-Esta página descreve as medidas de segurança e considerações de privacidade implementadas na plataforma Gamibot.
+Esta página descreve as medidas de segurança e considerações de privacidade implementadas na plataforma GamiBot.
 
 ---
 

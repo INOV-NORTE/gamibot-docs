@@ -1,11 +1,11 @@
 ---
 title: Tecnologias
-description: Tecnologias base e dependências chave usadas na plataforma Gamibot.
+description: Tecnologias base e dependências chave usadas na plataforma GamiBot.
 ---
 
 # Tecnologias Base
 
-Esta página descreve a stack tecnológica e as dependências chave que alimentam a plataforma Gamibot.
+Esta página descreve a stack tecnológica e as dependências chave que alimentam a plataforma GamiBot.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Pipeline de Ingestão de Dados
-description: Como o Gamibot ingere e processa automaticamente materiais de curso do Moodle.
+description: Como o GamiBot ingere e processa automaticamente materiais de curso do Moodle.
 ---
 
 # Pipeline de Ingestão de Dados

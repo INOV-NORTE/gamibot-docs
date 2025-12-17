@@ -1,12 +1,12 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'Gamibot',
+  title: 'GamiBot',
   description: 'AI-powered Moodle chat plugin for personalized learning',
-  
+
   // Clean URLs without .html extension
   cleanUrls: true,
-  
+
   // Head meta tags for SEO and accessibility
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -26,6 +26,7 @@ export default defineConfig({
           { text: 'Home', link: '/en/' },
           { text: 'Introduction', link: '/en/introduction/overview' },
           { text: 'Workflows', link: '/en/workflows/data-ingestion' },
+          { text: 'Gamification', link: '/en/gamification/overview' },
           { text: 'Integration', link: '/en/integration/moodle-plugin' },
           { text: 'Deployment', link: '/en/deployment/architecture' }
         ],
@@ -47,6 +48,15 @@ export default defineConfig({
                 { text: 'Content Summarization', link: '/en/workflows/summarization' },
                 { text: 'Doubt Clarification', link: '/en/workflows/doubt-clarification' },
                 { text: 'Quiz Generation', link: '/en/workflows/quiz-generation' }
+              ]
+            },
+            {
+              text: 'Gamification',
+              collapsed: false,
+              items: [
+                { text: 'Gami API', link: '/en/gamification/overview' },
+                { text: 'Tech Stack', link: '/en/gamification/tech-stack' },
+                { text: 'API Reference', link: '/en/gamification/api-reference' }
               ]
             },
             {
@@ -94,6 +104,7 @@ export default defineConfig({
           { text: 'Início', link: '/pt/' },
           { text: 'Introdução', link: '/pt/introduction/overview' },
           { text: 'Fluxos de Trabalho', link: '/pt/workflows/data-ingestion' },
+          { text: 'Gamificação', link: '/pt/gamification/overview' },
           { text: 'Integração', link: '/pt/integration/moodle-plugin' },
           { text: 'Implantação', link: '/pt/deployment/architecture' }
         ],
@@ -115,6 +126,15 @@ export default defineConfig({
                 { text: 'Sumarização de Conteúdo', link: '/pt/workflows/summarization' },
                 { text: 'Esclarecimento de Dúvidas', link: '/pt/workflows/doubt-clarification' },
                 { text: 'Geração de Quizzes', link: '/pt/workflows/quiz-generation' }
+              ]
+            },
+            {
+              text: 'Gamificação',
+              collapsed: false,
+              items: [
+                { text: 'Gami API', link: '/pt/gamification/overview' },
+                { text: 'Stack Tecnológica', link: '/pt/gamification/tech-stack' },
+                { text: 'Referência da API', link: '/pt/gamification/api-reference' }
               ]
             },
             {
@@ -159,7 +179,7 @@ export default defineConfig({
   themeConfig: {
     // Logo
     logo: '/logo.svg',
-    siteTitle: 'Gamibot',
+    siteTitle: 'GamiBot',
 
     // Social links
     socialLinks: [

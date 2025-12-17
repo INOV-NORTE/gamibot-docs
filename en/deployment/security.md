@@ -1,11 +1,11 @@
 ---
 title: Security & Privacy
-description: Security measures and privacy considerations for the Gamibot platform.
+description: Security measures and privacy considerations for the GamiBot platform.
 ---
 
 # Security and Privacy
 
-This page describes the security measures and privacy considerations implemented in the Gamibot platform.
+This page describes the security measures and privacy considerations implemented in the GamiBot platform.
 
 ---
 

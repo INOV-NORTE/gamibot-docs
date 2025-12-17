@@ -1,11 +1,11 @@
 ---
 title: Database Schema
-description: Database schema extensions for the Gamibot Moodle plugin.
+description: Database schema extensions for the GamiBot Moodle plugin.
 ---
 
 # Database Schema Extensions
 
-The Gamibot plugin extends the Moodle database with custom tables to track quizzes, chat history, and ingestion logs.
+The GamiBot plugin extends the Moodle database with custom tables to track quizzes, chat history, and ingestion logs.
 
 ---
 

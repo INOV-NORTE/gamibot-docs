@@ -1,6 +1,6 @@
 ---
 title: Quiz Generation
-description: How Gamibot creates personalized quizzes with formative feedback using an agentic approach.
+description: How GamiBot creates personalized quizzes with formative feedback using an agentic approach.
 ---
 
 # Agentic Quiz Generation Flow

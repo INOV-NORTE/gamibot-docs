@@ -1,11 +1,11 @@
 ---
 title: Monitorização
-description: Monitorização, garantia de qualidade e estratégias de teste para o Gamibot.
+description: Monitorização, garantia de qualidade e estratégias de teste para o GamiBot.
 ---
 
 # Monitorização e Garantia de Qualidade
 
-Esta página descreve a configuração de monitorização, métricas chave e estratégias de teste para a plataforma Gamibot.
+Esta página descreve a configuração de monitorização, métricas chave e estratégias de teste para a plataforma GamiBot.
 
 ---
 

@@ -1,11 +1,11 @@
 ---
 title: Arquitetura
-description: Arquitetura de implantação e requisitos de infraestrutura para o Gamibot.
+description: Arquitetura de implantação e requisitos de infraestrutura para o GamiBot.
 ---
 
 # Arquitetura de Implantação
 
-Esta página descreve a arquitetura de implantação em produção e os requisitos de infraestrutura para a plataforma Gamibot.
+Esta página descreve a arquitetura de implantação em produção e os requisitos de infraestrutura para a plataforma GamiBot.
 
 ---
 

@@ -1,23 +1,23 @@
 ---
 layout: home
-title: Gamibot - AI-Powered Moodle Plugin
-titleTemplate: Gamibot Documentation
-description: Comprehensive documentation for Gamibot, an AI-enhanced Moodle learning platform that integrates LLM agents with vector database technology for personalized learning experiences.
+title: GamiBot - AI-Powered Moodle Plugin
+titleTemplate: GamiBot Documentation
+description: Comprehensive documentation for GamiBot, an AI-enhanced Moodle plugin that integrates LLM agents with vector database technology for personalized learning experiences.
 
 hero:
-  name: Gamibot
+  name: GamiBot
   text: AI-Powered Moodle Learning
   tagline: Deliver personalized learning experiences with LLM agents and vector database technology
   image:
     src: /logo.svg
-    alt: Gamibot Logo
+    alt: GamiBot Logo
   actions:
     - theme: brand
       text: Get Started
       link: /en/introduction/overview
     - theme: alt
       text: View on GitHub
-      link: https://github.com/your-org/gamibot
+      link: https://github.com/inov-norte/gamibot
 
 features:
   - icon: 📚

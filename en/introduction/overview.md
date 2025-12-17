@@ -1,6 +1,6 @@
 ---
 title: Overview
-description: Executive summary and system architecture of the Gamibot AI-enhanced Moodle learning platform.
+description: Executive summary and system architecture of the GamiBot AI-enhanced Moodle learning platform.
 ---
 
 # System Overview

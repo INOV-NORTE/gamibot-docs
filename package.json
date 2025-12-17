@@ -1,7 +1,7 @@
 {
   "name": "gamibot-docs",
   "version": "1.0.0",
-  "description": "Documentation website for Gamibot - AI-powered Moodle chat plugin",
+  "description": "Documentation website for GamiBot - AI-powered Moodle chat plugin",
   "type": "module",
   "scripts": {
     "dev": "vitepress dev",

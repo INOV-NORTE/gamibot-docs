@@ -1,11 +1,11 @@
 ---
 title: Moodle Plugin
-description: Architecture and implementation of the Gamibot Moodle plugin for integration.
+description: Architecture and implementation of the GamiBot Moodle plugin for integration.
 ---
 
 # Moodle Plugin Architecture
 
-The Gamibot platform integrates with Moodle through a custom local plugin that handles webhook dispatch, event observation, and chat integration.
+The GamiBot platform integrates with Moodle through a custom local plugin that handles webhook dispatch, event observation, and chat integration.
 
 ---
 
@@ -73,7 +73,7 @@ $observers = [
 Custom JavaScript captures student messages from the Moodle chat module:
 
 ```javascript
-// Capture chat input and send to Gamibot API
+// Capture chat input and send to GamiBot API
 document.getElementById('chat-input').addEventListener('submit', async (e) => {
     e.preventDefault();
     

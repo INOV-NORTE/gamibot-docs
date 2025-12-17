@@ -1,23 +1,23 @@
 ---
 layout: home
-title: Gamibot - Plugin Moodle com IA
-titleTemplate: Documentação Gamibot
-description: Documentação completa do Gamibot, uma plataforma de aprendizagem Moodle melhorada com IA que integra agentes LLM com tecnologia de base de dados vetorial para experiências de aprendizagem personalizadas.
+title: GamiBot - Plugin Moodle com IA
+titleTemplate: Documentação GamiBot
+description: Documentação completa do GamiBot, uma plataforma de aprendizagem Moodle melhorada com IA que integra agentes LLM com tecnologia de base de dados vetorial para experiências de aprendizagem personalizadas.
 
 hero:
-  name: Gamibot
+  name: GamiBot
   text: Aprendizagem Moodle com IA
   tagline: Proporcione experiências de aprendizagem personalizadas com agentes LLM e tecnologia de base de dados vetorial
   image:
     src: /logo.svg
-    alt: Logótipo Gamibot
+    alt: Logótipo GamiBot
   actions:
     - theme: brand
       text: Começar
       link: /pt/introduction/overview
     - theme: alt
       text: Ver no GitHub
-      link: https://github.com/your-org/gamibot
+      link: https://github.com/inov-norte/gamibot
 
 features:
   - icon: 📚

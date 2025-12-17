@@ -1,6 +1,6 @@
 ---
 title: Esclarecimento de Dúvidas
-description: Como o Gamibot responde a perguntas dos alunos usando contexto específico do curso.
+description: Como o GamiBot responde a perguntas dos alunos usando contexto específico do curso.
 ---
 
 # Fluxo de Esclarecimento de Dúvidas

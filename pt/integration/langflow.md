@@ -1,11 +1,11 @@
 ---
 title: Fluxos LangFlow
-description: Configurações e exportações de fluxos de trabalho LangFlow para agentes de IA Gamibot.
+description: Configurações e exportações de fluxos de trabalho LangFlow para agentes de IA GamiBot.
 ---
 
 # Fluxos de Trabalho LangFlow
 
-Cada fluxo de trabalho no Gamibot é definido como uma **configuração JSON LangFlow** que orquestra o pipeline de processamento de IA.
+Cada fluxo de trabalho no GamiBot é definido como uma **configuração JSON LangFlow** que orquestra o pipeline de processamento de IA.
 
 ---
 

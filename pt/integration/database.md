@@ -1,11 +1,11 @@
 ---
 title: Esquema de Base de Dados
-description: Extensões do esquema de base de dados para o plugin Moodle Gamibot.
+description: Extensões do esquema de base de dados para o plugin Moodle GamiBot.
 ---
 
 # Extensões do Esquema de Base de Dados
 
-O plugin Gamibot estende a base de dados Moodle com tabelas personalizadas para rastrear quizzes, histórico de chat e logs de ingestão.
+O plugin GamiBot estende a base de dados Moodle com tabelas personalizadas para rastrear quizzes, histórico de chat e logs de ingestão.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Content Summarization
-description: How Gamibot generates personalized summaries of course materials using RAG.
+description: How GamiBot generates personalized summaries of course materials using RAG.
 ---
 
 # Content Summarization Flow

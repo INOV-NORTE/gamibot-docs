@@ -1,6 +1,6 @@
 ---
 title: Geração de Quizzes
-description: Como o Gamibot cria quizzes personalizados com feedback formativo usando uma abordagem agêntica.
+description: Como o GamiBot cria quizzes personalizados com feedback formativo usando uma abordagem agêntica.
 ---
 
 # Fluxo de Geração Agêntica de Quizzes
