@@ -1,0 +1,364 @@
+/**
+ * Gamibot Documentation - Custom Theme Styles
+ * WCAG 2 AA Compliant Color Scheme
+ */
+
+/* ============================================
+   CSS Custom Properties (Design Tokens)
+   ============================================ */
+
+:root {
+  /* Primary brand colors - WCAG AA compliant */
+  --vp-c-brand-1: #6366f1;
+  --vp-c-brand-2: #4f46e5;
+  --vp-c-brand-3: #4338ca;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.14);
+
+  /* Text colors with proper contrast ratios */
+  --vp-c-text-1: #1e293b;
+  --vp-c-text-2: #475569;
+  --vp-c-text-3: #64748b;
+
+  /* Background colors */
+  --vp-c-bg: #ffffff;
+  --vp-c-bg-soft: #f8fafc;
+  --vp-c-bg-alt: #f1f5f9;
+
+  /* Border colors */
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #e2e8f0;
+
+  /* Focus ring for keyboard navigation - WCAG requirement */
+  --focus-ring-color: #6366f1;
+  --focus-ring-offset: 2px;
+  --focus-ring-width: 3px;
+
+  /* Hero section gradient */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --vp-home-hero-image-filter: blur(56px);
+}
+
+/* Dark mode color scheme */
+.dark {
+  --vp-c-brand-1: #818cf8;
+  --vp-c-brand-2: #a5b4fc;
+  --vp-c-brand-3: #c7d2fe;
+  --vp-c-brand-soft: rgba(129, 140, 248, 0.14);
+
+  /* Dark mode text colors - WCAG AA compliant */
+  --vp-c-text-1: #f1f5f9;
+  --vp-c-text-2: #cbd5e1;
+  --vp-c-text-3: #94a3b8;
+
+  /* Dark mode backgrounds */
+  --vp-c-bg: #0f172a;
+  --vp-c-bg-soft: #1e293b;
+  --vp-c-bg-alt: #1e293b;
+
+  /* Dark mode borders */
+  --vp-c-border: #334155;
+  --vp-c-divider: #334155;
+
+  --focus-ring-color: #818cf8;
+}
+
+/* ============================================
+   Skip to Content Link (WCAG 2.4.1)
+   ============================================ */
+
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.75rem 1.5rem;
+  background-color: var(--vp-c-brand-1);
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  z-index: 1000;
+  transition: top 0.2s ease;
+}
+
+.skip-to-content:focus {
+  top: 1rem;
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+
+/* ============================================
+   Enhanced Focus Indicators (WCAG 2.4.7)
+   ============================================ */
+
+/* Global focus styles for keyboard navigation */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+[tabindex]:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+  border-radius: 4px;
+}
+
+/* Remove focus ring for mouse users */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+input:focus:not(:focus-visible),
+select:focus:not(:focus-visible),
+textarea:focus:not(:focus-visible),
+[tabindex]:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Navigation focus enhancement */
+.VPNavBarMenuLink:focus-visible,
+.VPNavBarMenuGroup button:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+}
+
+/* Sidebar link focus */
+.VPSidebarItem a:focus-visible {
+  outline: var(--focus-ring-width) solid var(--focus-ring-color);
+  outline-offset: var(--focus-ring-offset);
+  border-radius: 4px;
+}
+
+/* ============================================
+   Typography Enhancements
+   ============================================ */
+
+/* Use system fonts with good readability */
+:root {
+  --vp-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', 'Monaco', 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+/* Ensure minimum text size for readability */
+.VPDoc {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Headings with proper hierarchy */
+.VPDoc h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+.VPDoc h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPDoc h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+/* ============================================
+   Mobile Responsiveness Enhancements
+   ============================================ */
+
+@media (max-width: 768px) {
+  /* Larger touch targets (WCAG 2.5.5 - minimum 44x44px) */
+  .VPNavBarMenuLink,
+  .VPSidebarItem a,
+  .VPButton {
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Improved mobile navigation */
+  .VPNavBar {
+    padding: 0 1rem;
+  }
+
+  /* Better sidebar on mobile */
+  .VPSidebar {
+    padding: 1rem;
+  }
+
+  /* Full-width content on mobile */
+  .VPDoc .container {
+    max-width: 100%;
+    padding: 0 1rem;
+  }
+
+  /* Larger font on mobile for readability */
+  .VPDoc {
+    font-size: 17px;
+    line-height: 1.8;
+  }
+}
+
+/* ============================================
+   Code Block Enhancements
+   ============================================ */
+
+/* Improved code block styling */
+.vp-code-group .tabs label {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+/* Better code contrast */
+.vp-doc [class*='language-'] code {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* ============================================
+   Table Accessibility
+   ============================================ */
+
+.vp-doc table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5rem 0;
+}
+
+.vp-doc th,
+.vp-doc td {
+  border: 1px solid var(--vp-c-border);
+  padding: 0.75rem 1rem;
+  text-align: left;
+}
+
+.vp-doc th {
+  background-color: var(--vp-c-bg-soft);
+  font-weight: 600;
+}
+
+.vp-doc tr:nth-child(even) {
+  background-color: var(--vp-c-bg-soft);
+}
+
+/* ============================================
+   Link Styles (WCAG 1.4.1 - not color alone)
+   ============================================ */
+
+.vp-doc a {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.vp-doc a:hover {
+  color: var(--vp-c-brand-2);
+  text-decoration-thickness: 2px;
+}
+
+/* ============================================
+   Custom Components
+   ============================================ */
+
+/* Feature cards on home page */
+.VPFeature {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.dark .VPFeature:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero button styling */
+.VPButton.brand {
+  background: linear-gradient(135deg, var(--vp-c-brand-1) 0%, var(--vp-c-brand-2) 100%);
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPButton.brand:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+}
+
+/* ============================================
+   Print Styles
+   ============================================ */
+
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPLocalNav,
+  .VPDocFooter,
+  .edit-link {
+    display: none !important;
+  }
+
+  .VPDoc {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  .vp-doc a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .vp-doc a::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.8em;
+    color: #666;
+  }
+}
+
+/* ============================================
+   High Contrast Mode Support
+   ============================================ */
+
+@media (prefers-contrast: high) {
+  :root {
+    --vp-c-brand-1: #4338ca;
+    --vp-c-text-1: #000000;
+    --vp-c-text-2: #1a1a1a;
+    --vp-c-border: #000000;
+  }
+
+  .dark {
+    --vp-c-brand-1: #a5b4fc;
+    --vp-c-text-1: #ffffff;
+    --vp-c-text-2: #f0f0f0;
+    --vp-c-border: #ffffff;
+  }
+
+  a:focus-visible,
+  button:focus-visible {
+    outline-width: 4px;
+  }
+}
+
+/* ============================================
+   Reduced Motion Support (WCAG 2.3.3)
+   ============================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

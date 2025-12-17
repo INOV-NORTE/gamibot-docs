@@ -1,0 +1,24 @@
+{
+  "name": "gamibot-docs",
+  "version": "1.0.0",
+  "description": "Documentation website for Gamibot - AI-powered Moodle chat plugin",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "keywords": [
+    "gamibot",
+    "moodle",
+    "ai",
+    "documentation",
+    "llm",
+    "education"
+  ],
+  "author": "Pedagogical Innovation Center (CIP), Polytechnic of Porto (IPP)",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}

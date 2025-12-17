@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#a855f7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main circle background -->
+  <circle cx="50" cy="50" r="45" fill="url(#gradient1)" />
+  
+  <!-- Robot head outline -->
+  <rect x="28" y="25" width="44" height="35" rx="8" ry="8" fill="white" opacity="0.95"/>
+  
+  <!-- Eyes -->
+  <circle cx="38" cy="40" r="5" fill="#6366f1"/>
+  <circle cx="62" cy="40" r="5" fill="#6366f1"/>
+  
+  <!-- Eye highlights -->
+  <circle cx="36" cy="38" r="1.5" fill="white"/>
+  <circle cx="60" cy="38" r="1.5" fill="white"/>
+  
+  <!-- Mouth/speaker -->
+  <rect x="40" y="50" width="20" height="6" rx="3" ry="3" fill="#6366f1"/>
+  
+  <!-- Antenna -->
+  <line x1="50" y1="25" x2="50" y2="15" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="50" cy="12" r="4" fill="white"/>
+  
+  <!-- Mortarboard (graduation cap) -->
+  <polygon points="50,65 25,72 50,80 75,72" fill="white" opacity="0.95"/>
+  <rect x="45" y="62" width="10" height="5" fill="white"/>
+  <line x1="75" y1="72" x2="82" y2="80" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="84" cy="82" r="3" fill="#fbbf24"/>
+</svg>
