@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/gamibot-docs/',
   title: 'GamiBot',
   description: 'AI-powered Moodle chat plugin for personalized learning',
 
