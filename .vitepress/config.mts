@@ -216,7 +216,7 @@ export default defineConfig({
     // Footer
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2025 Pedagogical Innovation Center (CIP), Polytechnic of Porto (IPP)'
+      copyright: 'Copyright © 2025 Centro de Inovação Pedagógica (CIP), Instituto Politécnico do Porto (IPP)'
     }
   },
 
