@@ -5,16 +5,12 @@ title: Redirecting...
 
 <script setup>
 import { onMounted } from 'vue'
-import { useRouter } from 'vitepress'
-import { nextTick } from 'vue'
-
-const { go } = useRouter()
+import { withBase } from 'vitepress'
 
 onMounted(() => {
-  // Redirect to English as default language
-  nextTick(() => {
-    go('/en/')
-  })
+  // Use withBase to handle the repository base path correctly
+  // Use window.location.replace to avoid back-button loops
+  window.location.replace(withBase('/en/'))
 })
 </script>
 
