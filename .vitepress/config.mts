@@ -10,7 +10,7 @@ export default defineConfig({
 
   // Head meta tags for SEO and accessibility
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/gamibot-docs/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#2563eb' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }],
     ['html', { lang: 'en' }]
