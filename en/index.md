@@ -60,6 +60,6 @@ features:
 <style>
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 50%, #a855f7 100%);
+  --vp-home-hero-name-background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #3b82f6 100%);
 }
 </style>
