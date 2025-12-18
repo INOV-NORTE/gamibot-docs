@@ -5,8 +5,8 @@ export default defineConfig({
   title: 'GamiBot',
   description: 'AI-powered Moodle chat plugin for personalized learning',
 
-  // Clean URLs without .html extension
-  cleanUrls: true,
+  // Clean URLs without .html extension - disabled for GitHub Pages compatibility
+  cleanUrls: false,
 
   // Head meta tags for SEO and accessibility
   head: [
