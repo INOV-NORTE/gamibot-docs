@@ -13,7 +13,7 @@ Esta página descreve a autenticação e documentação de endpoints para a Gami
 
 Documentação Swagger disponível em:
 
-👉 **[http://localhost:3000/documentation](http://localhost:3000/documentation)**
+👉 `http://localhost:3000/documentation`
 
 ---
 
