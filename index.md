@@ -6,12 +6,15 @@ title: Redirecting...
 <script setup>
 import { onMounted } from 'vue'
 import { useRouter } from 'vitepress'
+import { nextTick } from 'vue'
 
 const { go } = useRouter()
 
 onMounted(() => {
   // Redirect to English as default language
-  go('/en/')
+  nextTick(() => {
+    go('/en/')
+  })
 })
 </script>
 
