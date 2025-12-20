@@ -69,7 +69,7 @@ export default defineConfig({
                 { text: 'API Reference', link: '/en/gamification/api-reference' }
               ]
             },
-            {
+            /*{
               text: 'Integration',
               collapsed: false,
               items: [
@@ -86,7 +86,7 @@ export default defineConfig({
                 { text: 'Security & Privacy', link: '/en/deployment/security' },
                 { text: 'Monitoring', link: '/en/deployment/monitoring' }
               ]
-            }
+            }*/
           ]
         },
         outline: {
@@ -156,7 +156,7 @@ export default defineConfig({
                 { text: 'Referência da API', link: '/pt/gamification/api-reference' }
               ]
             },
-            {
+            /*{
               text: 'Integração',
               collapsed: false,
               items: [
@@ -173,7 +173,7 @@ export default defineConfig({
                 { text: 'Segurança e Privacidade', link: '/pt/deployment/security' },
                 { text: 'Monitorização', link: '/pt/deployment/monitoring' }
               ]
-            }
+            }*/
           ]
         },
         outline: {
