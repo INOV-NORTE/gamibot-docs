@@ -26,6 +26,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Introduction', link: '/en/introduction/overview' },
+          { text: 'Setup', link: '/en/setup/moodle' },
           { text: 'Workflows', link: '/en/workflows/data-ingestion' },
           { text: 'Gamification', link: '/en/gamification/overview' },
           { text: 'Integration', link: '/en/integration/moodle-plugin' },
@@ -39,6 +40,14 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/en/introduction/overview' },
                 { text: 'Technologies', link: '/en/introduction/technologies' }
+              ]
+            },
+            {
+              text: 'Setup',
+              collapsed: false,
+              items: [
+                { text: 'Moodle Setup', link: '/en/setup/moodle' },
+                { text: 'Request Credentials', link: '/en/setup/request-credentials' }
               ]
             },
             {
@@ -104,6 +113,7 @@ export default defineConfig({
         nav: [
           { text: 'Início', link: '/pt/' },
           { text: 'Introdução', link: '/pt/introduction/overview' },
+          { text: 'Configuração', link: '/pt/setup/moodle' },
           { text: 'Fluxos de Trabalho', link: '/pt/workflows/data-ingestion' },
           { text: 'Gamificação', link: '/pt/gamification/overview' },
           { text: 'Integração', link: '/pt/integration/moodle-plugin' },
@@ -117,6 +127,14 @@ export default defineConfig({
               items: [
                 { text: 'Visão Geral', link: '/pt/introduction/overview' },
                 { text: 'Tecnologias', link: '/pt/introduction/technologies' }
+              ]
+            },
+            {
+              text: 'Configuração',
+              collapsed: false,
+              items: [
+                { text: 'Configuração do Moodle', link: '/pt/setup/moodle' },
+                { text: 'Solicitar Credenciais', link: '/pt/setup/request-credentials' }
               ]
             },
             {
