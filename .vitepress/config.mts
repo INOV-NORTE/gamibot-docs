@@ -26,6 +26,7 @@ export default defineConfig({
         nav: [
           { text: 'Home', link: '/en/' },
           { text: 'Introduction', link: '/en/introduction/overview' },
+          { text: 'User Guide', link: '/en/user-guide/' },
           { text: 'Setup', link: '/en/setup/moodle' },
           { text: 'Workflows', link: '/en/workflows/data-ingestion' },
           { text: 'Gamification', link: '/en/gamification/overview' },
@@ -40,6 +41,13 @@ export default defineConfig({
               items: [
                 { text: 'Overview', link: '/en/introduction/overview' },
                 { text: 'Technologies', link: '/en/introduction/technologies' }
+              ]
+            },
+            {
+              text: 'User Guide',
+              collapsed: false,
+              items: [
+                { text: 'User Guide', link: '/en/user-guide/' }
               ]
             },
             {
@@ -113,6 +121,7 @@ export default defineConfig({
         nav: [
           { text: 'Início', link: '/pt/' },
           { text: 'Introdução', link: '/pt/introduction/overview' },
+          { text: 'Guia de Utilizador', link: '/pt/user-guide/' },
           { text: 'Configuração', link: '/pt/setup/moodle' },
           { text: 'Fluxos de Trabalho', link: '/pt/workflows/data-ingestion' },
           { text: 'Gamificação', link: '/pt/gamification/overview' },
@@ -127,6 +136,13 @@ export default defineConfig({
               items: [
                 { text: 'Visão Geral', link: '/pt/introduction/overview' },
                 { text: 'Tecnologias', link: '/pt/introduction/technologies' }
+              ]
+            },
+            {
+              text: 'Guia de Utilizador',
+              collapsed: false,
+              items: [
+                { text: 'Guia de Utilizador', link: '/pt/user-guide/' }
               ]
             },
             {
