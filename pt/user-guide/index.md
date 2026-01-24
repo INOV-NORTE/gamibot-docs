@@ -36,6 +36,31 @@ A partir deste momento, pode selecionar diretamente a funcionalidade pretendida 
 
 ## Funcionalidades
 
+O GamiBot disponibiliza quatro funcionalidades principais, apresentadas de forma direta na interface inicial:
+
+### Criar Quizzes
+
+Esta funcionalidade permite gerar quizzes interativos com base nos conteúdos da unidade curricular. Os quizzes ajudam a testar conhecimentos, reforçar conceitos e promover a autoavaliação, sendo uma ferramenta útil para estudo contínuo e preparação para avaliações.
+
+A funcionalidade **Criar Quizzes** permite gerar quizzes interativos de forma guiada, através de uma conversa com o GamiBot.
+
+O processo inicia-se com o GamiBot a questionar o utilizador sobre:
+- O **tipo de quiz** pretendido (por exemplo, *Verdadeiro/Falso* ou *Escolha Múltipla*);
+- O **tópico** sobre o qual o quiz deve ser criado.
+
+Após a seleção do tipo de quiz, o utilizador indica o tema a testar (por exemplo, *Regras das peças de xadrez*). Com base nessa informação, o GamiBot gera automaticamente um conjunto de perguntas adequadas ao tópico escolhido.
+
+Esta abordagem conversacional torna a criação de quizzes simples e intuitiva, permitindo:
+- Testar conhecimentos de forma rápida;
+- Reforçar a aprendizagem através da prática;
+- Adaptar os quizzes aos interesses e necessidades do estudante.
+
+<figure style="text-align: center;">
+  <img src="../../public/images/user-guide/fig_02.png" alt="Geração de quiz" style="display: block; margin: 0 auto; width: 50%;">
+  <figcaption>Geração de quiz</figcaption>
+</figure>
+
+
 ### Esclarecimento de Dúvidas
 
 Pode fazer perguntas sobre o conteúdo do curso, e o GamiBot responderá com base nos materiais disponibilizados.
