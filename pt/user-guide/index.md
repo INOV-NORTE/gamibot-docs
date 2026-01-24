@@ -4,7 +4,7 @@ title: Guia de Utilizador
 
 # Guia de Utilizador
 
-Bem-vindo ao Guia de Utilizador do GamiBot. Este guia irá ajudá-lo a entender como utilizar as funcionalidades do GamiBot no Moodle.
+Bem-vindo ao Guia de Utilizador do GamiBot. Este guia irá ajudá-lo a entender como utilizar as funcionalidades do GamiBot no Moodle...
 
 ## Índice
 
