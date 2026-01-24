@@ -27,7 +27,7 @@ Para aceder ao GamiBot:
 3. Clique no ícone para abrir a janela de interação.
 
 <figure style="text-align: center;">
-  <img src="/images/user-guide/fig_01.png" alt="Interface principal do GamiBot" width="50%">
+  <img src="/images/user-guide/fig_01.png" alt="Interface principal do GamiBot" style="display: block; margin: 0 auto; width: 50%;">
   <figcaption>Interface principal do GamiBot</figcaption>
 </figure>
 
