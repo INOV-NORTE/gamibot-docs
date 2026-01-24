@@ -18,12 +18,19 @@ O GamiBot é um assistente virtual integrado no Moodle, concebido para apoiar os
 
 As suas funcionalidades principais incluem a criação de quizzes, o resumo de matéria, o esclarecimento de dúvidas e a visualização do progresso do estudante.
 
-<!--![Visão Geral do GamiBot](/images/user-guide/overview.png)-->
-*Figura 1: Interface principal do GamiBot*
-
 ## Como Aceder
 
-Para aceder ao GamiBot, procure o ícone de chat no canto inferior direito da sua página do Moodle.
+Para aceder ao GamiBot:
+
+1. Entre na página da unidade curricular no Moodle;
+2. Localize o ícone de chat do GamiBot no canto inferior direito do ecrã;
+3. Clique no ícone para abrir a janela de interação.
+
+A partir deste momento, pode selecionar diretamente a funcionalidade pretendida ou escrever uma pergunta no campo de texto.
+
+![Visão Geral do GamiBot](/images/user-guide/fig_01.png)
+*Figura 1: Interface principal do GamiBot*
+
 
 ## Funcionalidades
 
