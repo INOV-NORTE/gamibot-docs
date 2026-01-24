@@ -26,12 +26,12 @@ Para aceder ao GamiBot:
 2. Localize o ícone de chat do GamiBot no canto inferior direito do ecrã;
 3. Clique no ícone para abrir a janela de interação.
 
-A partir deste momento, pode selecionar diretamente a funcionalidade pretendida ou escrever uma pergunta no campo de texto.
-
 <figure style="text-align: center;">
-  <img src="images/user-guide/fig_01.png" alt="Interface principal do GamiBot" width="50%">
+  <img src="/images/user-guide/fig_01.png" alt="Interface principal do GamiBot" width="50%">
   <figcaption>Interface principal do GamiBot</figcaption>
 </figure>
+
+A partir deste momento, pode selecionar diretamente a funcionalidade pretendida ou escrever uma pergunta no campo de texto.
 
 
 ## Funcionalidades
