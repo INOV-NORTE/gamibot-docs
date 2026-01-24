@@ -16,7 +16,7 @@ Bem-vindo ao Guia de Utilizador do GamiBot. Este guia irá ajudá-lo a entender 
 
 O GamiBot é um assistente virtual integrado no Moodle que utiliza inteligência artificial para ajudar alunos e professores.
 
-![Visão Geral do GamiBot](/images/user-guide/overview.png)
+<!--![Visão Geral do GamiBot](/images/user-guide/overview.png)-->
 *Figura 1: Interface principal do GamiBot*
 
 ## Como Aceder
@@ -33,5 +33,5 @@ Pode fazer perguntas sobre o conteúdo do curso, e o GamiBot responderá com bas
 
 O GamiBot inclui elementos de gamificação para tornar a aprendizagem mais envolvente.
 
-![Painel de Gamificação](/images/user-guide/gamification.png)
+<!--![Painel de Gamificação](/images/user-guide/gamification.png)-->
 *Figura 2: Painel de Gamificação*
