@@ -28,7 +28,7 @@ Para aceder ao GamiBot:
 
 A partir deste momento, pode selecionar diretamente a funcionalidade pretendida ou escrever uma pergunta no campo de texto.
 
-![Visão Geral do GamiBot](/images/user-guide/fig_01.png)
+![Visão Geral do GamiBot](/images/user-guide/fig_01.png){ width="50%" }
 *Figura 1: Interface principal do GamiBot*
 
 
