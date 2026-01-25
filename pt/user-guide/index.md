@@ -50,16 +50,14 @@ O processo inicia-se com o GamiBot a questionar o utilizador sobre:
 
 Após a seleção do tipo de quiz, o utilizador indica o tema a testar (por exemplo, *Regras das peças de xadrez*). Com base nessa informação, o GamiBot gera automaticamente um conjunto de perguntas adequadas ao tópico escolhido.
 
-Esta abordagem conversacional torna a criação de quizzes simples e intuitiva, permitindo:
-- Testar conhecimentos de forma rápida;
-- Reforçar a aprendizagem através da prática;
-- Adaptar os quizzes aos interesses e necessidades do estudante.
-
 <figure style="text-align: center;">
-  <img src="../../public/images/user-guide/fig_02.png" alt="Geração de quiz" style="display: block; margin: 0 auto; width: 50%;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="../../public/images/user-guide/fig_02.png" alt="Geração de quiz" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_03.png" alt="Geração de quiz" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_04.png" alt="Geração de quiz" style="width: 30%;">
+  </div>
   <figcaption>Geração de quiz</figcaption>
 </figure>
-
 
 ### Esclarecimento de Dúvidas
 
