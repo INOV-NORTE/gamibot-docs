@@ -11,6 +11,9 @@ Bem-vindo ao Guia de Utilizador do GamiBot. Este guia explica como utilizar o Ga
 1.  [Visão Geral](#visao-geral)
 2.  [Como Aceder](#como-aceder)
 3.  [Funcionalidades](#funcionalidades)
+    3.1 [Criar Quizzes](#criar-quizzes)
+    3.2 [Resumir Matéria](#resumir-materia)
+    3.3 [Esclarecer Dúvidas](#esclarecimento-de-duvidas)
 
 ## Visão Geral
 
@@ -87,14 +90,35 @@ No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**,
   <figcaption>Geração de quiz</figcaption>
 </figure>
 
-EmO utilizador pode yambém aceder à área **Ver Progresso**, onde são apresentados:
+O utilizador pode yambém aceder à área **Ver Progresso**, onde são apresentados:
 - Estatísticas de utilização (interações, tempo, quizzes realizados);
 - Pontos acumulados e badges conquistados;
 - Níveis de progresso e conquistas desbloqueadas;
 - Temas que necessitam de maior atenção.
 
 
-### Esclarecimento de Dúvidas
+### Resumir Matéria
+
+A funcionalidade **Resumir Matéria** permite ao utilizador obter resumos automáticos e estruturados dos conteúdos da unidade curricular, através de uma interação simples em formato de chat.
+
+O GamiBot solicita o **tópico da matéria** a resumir e, com base nos materiais disponibilizados no Moodle, gera um resumo focado nos conceitos essenciais.
+
+<figure style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="../../public/images/user-guide/fig_08.png" alt="Resumir matéria" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_09.png" alt="Resumir matéria" style="width: 30%;">    
+  </div>
+  <figcaption>Resumir matéria</figcaption>
+</figure>
+
+Os resumos são apresentados de forma clara e organizada, incluindo:
+- Definições diretas dos conceitos principais;
+- Listagem dos pontos mais importantes;
+- Exemplos ilustrativos, sempre que aplicável.
+
+Esta funcionalidade é especialmente útil para revisão de conteúdos, consolidação da aprendizagem e preparação para avaliações.
+
+### Esclarecer Dúvidas
 
 Pode fazer perguntas sobre o conteúdo do curso, e o GamiBot responderá com base nos materiais disponibilizados.
 
