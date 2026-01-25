@@ -13,7 +13,7 @@ Bem-vindo ao Guia de Utilizador do GamiBot. Este guia explica como utilizar o Ga
 3.  [Funcionalidades](#funcionalidades) 
   - [3.1 Criar Quizzes](#criar-quizzes)
   - [3.2 Resumir Matéria](#resumir-materia)
-  - [3.3 Esclarecimento de Dúvidas](#esclarecimento-de-duvidas)
+  - [3.3 Esclarecimento de Dúvidas](#esclarecer-duvidas)
 
 ## Visão Geral
 
