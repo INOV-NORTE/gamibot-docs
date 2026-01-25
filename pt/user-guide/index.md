@@ -11,7 +11,7 @@ Bem-vindo ao Guia de Utilizador do GamiBot. Este guia explica como utilizar o Ga
 1.  [Visão Geral](#visao-geral)
 2.  [Como Aceder](#como-aceder)
 3.  [Funcionalidades](#funcionalidades) 
-  - [3.1 Criar Quizzes](#criar-quizzes)
+   [3.1 Criar Quizzes](#criar-quizzes)
   - [3.2 Resumir Matéria](#resumir-materia)
   - [3.3 Esclarecimento de Dúvidas](#esclarecimento-de-duvidas)
 
