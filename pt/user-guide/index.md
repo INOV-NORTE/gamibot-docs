@@ -10,10 +10,7 @@ Bem-vindo ao Guia de Utilizador do GamiBot. Este guia explica como utilizar o Ga
 
 1.  [Visão Geral](#visao-geral)
 2.  [Como Aceder](#como-aceder)
-3.  [Funcionalidades](#funcionalidades)
-    3.1 [Criar Quizzes](#criar-quizzes)
-    3.2 [Resumir Matéria](#resumir-materia)
-    3.3 [Esclarecer Dúvidas](#esclarecimento-de-duvidas)
+3.  [Funcionalidades](#funcionalidades): 3.1 [Criar Quizzes](#criar-quizzes), 3.2 [Resumir Matéria](#resumir-materia), 3.3 [Esclarecimento de Dúvidas](#esclarecimento-de-duvidas)
 
 ## Visão Geral
 
@@ -45,8 +42,6 @@ O GamiBot disponibiliza quatro funcionalidades principais, apresentadas de forma
 
 Esta funcionalidade permite gerar quizzes interativos com base nos conteúdos da unidade curricular. Os quizzes ajudam a testar conhecimentos, reforçar conceitos e promover a autoavaliação, sendo uma ferramenta útil para estudo contínuo e preparação para avaliações.
 
-A funcionalidade **Criar Quizzes** permite gerar quizzes interativos de forma guiada, através de uma conversa com o GamiBot.
-
 O processo inicia-se com o GamiBot a questionar o utilizador sobre:
 - O **tipo de quiz** pretendido (por exemplo, *Verdadeiro/Falso* ou *Escolha Múltipla*);
 - O **tópico** sobre o qual o quiz deve ser criado.
@@ -63,23 +58,15 @@ Após a seleção do tipo de quiz, o utilizador indica o tema a testar (por exem
   <figcaption>Geração de quiz</figcaption>
 </figure>
 
-
 Cada pergunta é respondida diretamente na interface, selecionando a opção pretendida e confirmando a resposta. Independentemente de a resposta estar correta ou incorreta, o GamiBot fornece **feedback imediato**, incluindo:
 - Indicação do resultado da resposta;
 - Uma **justificação explicativa**, reforçando a aprendizagem;
 - Mensagens motivacionais que incentivam a continuidade do quiz.
 
-O quiz integra ainda um sistema de **vidas**, representado por ícones visuais:
-- Por defeito, cada utilizador inicia com **3 vidas**;
-- Uma vida é perdida sempre que a resposta é incorreta;
-- O número de vidas é **configurável pelo administrador/docente**.
+O quiz integra ainda um sistema de **vidas**, representado por ícones visuais. Por defeito, cada utilizador inicia com **3 vidas**. Uma vida é perdida sempre que a resposta é incorreta. O número de vidas é **configurável pelo administrador/docente**.
 
 #### Resultados Finais e Progresso
-No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**, incluindo a pontuação obtida e uma análise detalhada de cada resposta. Para cada questão, o utilizador pode visualizar:
-- A resposta dada;
-- A resposta correta;
-- Uma explicação justificativa, reforçando os conceitos essenciais;
-- Sugestões de estudo personalizadas para melhorar o desempenho futuro.
+No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**, incluindo a resposta dada, a resposta correta, uma explicação justificativa, reforçando os conceitos essenciais e sugestões de estudo personalizadas para melhorar o desempenho futuro.
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
@@ -99,9 +86,7 @@ O utilizador pode yambém aceder à área **Ver Progresso**, onde são apresenta
 
 ### Resumir Matéria
 
-A funcionalidade **Resumir Matéria** permite ao utilizador obter resumos automáticos e estruturados dos conteúdos da unidade curricular, através de uma interação simples em formato de chat.
-
-O GamiBot solicita o **tópico da matéria** a resumir e, com base nos materiais disponibilizados no Moodle, gera um resumo focado nos conceitos essenciais.
+A funcionalidade **Resumir Matéria** permite ao utilizador obter resumos automáticos e estruturados dos conteúdos da unidade curricular, através de uma interação simples em formato de chat. O GamiBot solicita o **tópico da matéria** a resumir e, com base nos materiais disponibilizados no Moodle, gera um resumo focado nos conceitos essenciais.
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
