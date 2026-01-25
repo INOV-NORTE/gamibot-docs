@@ -72,9 +72,7 @@ O quiz integra ainda um sistema de **vidas**, representado por ícones visuais:
 - O número de vidas é **configurável pelo administrador/docente**.
 
 #### Resultados Finais e Progresso
-No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**, incluindo a pontuação obtida e uma análise detalhada de cada resposta.
-
-Para cada questão, o utilizador pode visualizar:
+No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**, incluindo a pontuação obtida e uma análise detalhada de cada resposta. Para cada questão, o utilizador pode visualizar:
 - A resposta dada;
 - A resposta correta;
 - Uma explicação justificativa, reforçando os conceitos essenciais;
@@ -89,10 +87,11 @@ Para cada questão, o utilizador pode visualizar:
   <figcaption>Geração de quiz</figcaption>
 </figure>
 
-O quiz integra ainda um sistema de **vidas**, representado por ícones visuais:
-- Por defeito, cada utilizador inicia com **3 vidas**;
-- Uma vida é perdida sempre que a resposta é incorreta;
-- O número de vidas é **configurável pelo administrador/docente**.
+EmO utilizador pode yambém aceder à área **Ver Progresso**, onde são apresentados:
+- Estatísticas de utilização (interações, tempo, quizzes realizados);
+- Pontos acumulados e badges conquistados;
+- Níveis de progresso e conquistas desbloqueadas;
+- Temas que necessitam de maior atenção.
 
 
 ### Esclarecimento de Dúvidas
