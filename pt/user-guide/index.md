@@ -11,7 +11,7 @@ Bem-vindo ao Guia de Utilizador do GamiBot. Este guia explica como utilizar o Ga
 1.  [Visão Geral](#visao-geral)
 2.  [Como Aceder](#como-aceder)
 3.  [Funcionalidades](#funcionalidades) 
-   [3.1 Criar Quizzes](#criar-quizzes)
+  - [3.1 Criar Quizzes](#criar-quizzes)
   - [3.2 Resumir Matéria](#resumir-materia)
   - [3.3 Esclarecimento de Dúvidas](#esclarecimento-de-duvidas)
 
@@ -128,7 +128,28 @@ Desta forma, o GamiBot funciona como um apoio imediato ao estudo, disponível a 
 
 ### Gamificação
 
-O GamiBot inclui elementos de gamificação para tornar a aprendizagem mais envolvente.
+O GamiBot integra um conjunto de **mecânicas de gamificação** que têm como objetivo aumentar a motivação, o envolvimento e a participação ativa dos estudantes ao longo do processo de aprendizagem.
+
+Através da interação com o GamiBot, os utilizadores acumulam:
+- **Pontos**, atribuídos pela realização de ações como colocar dúvidas, criar quizzes ou consultar resumos;
+- **Badges (emblemas)**, que reconhecem diferentes tipos de participação e conquistas;
+- **Níveis**, que refletem a progressão e o envolvimento contínuo do utilizador.
+
+<figure style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="../../public/images/user-guide/fig_11.png" alt="Gamificação" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_12.png" alt="Gamificação" style="width: 30%;">    
+  </div>
+  <figcaption>Gamificação</figcaption>
+</figure>
+
+A área de progresso permite ainda visualizar:
+- Estatísticas de utilização (conversas, tempo de interação, quizzes, resumos e dúvidas);
+- Badges conquistados e respetivo nível de evolução;
+- Temas que necessitam de maior atenção, apoiando a autorregulação da aprendizagem.
+
+Estas mecânicas transformam a interação com o GamiBot numa experiência mais envolvente, incentivando a continuidade do estudo e a melhoria progressiva do desempenho.
+
 
 <!--![Painel de Gamificação](/images/user-guide/gamification.png)-->
 *Figura 2: Painel de Gamificação*
