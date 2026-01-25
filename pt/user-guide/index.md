@@ -48,6 +48,7 @@ O processo inicia-se com o GamiBot a questionar o utilizador sobre:
 - O **tipo de quiz** pretendido (por exemplo, *Verdadeiro/Falso* ou *Escolha Múltipla*);
 - O **tópico** sobre o qual o quiz deve ser criado.
 
+#### Execução do Quiz, Feedback e Vidas
 Após a seleção do tipo de quiz, o utilizador indica o tema a testar (por exemplo, *Regras das peças de xadrez*). Com base nessa informação, o GamiBot gera automaticamente um conjunto de perguntas adequadas ao tópico escolhido.
 
 <figure style="text-align: center;">
@@ -58,6 +59,41 @@ Após a seleção do tipo de quiz, o utilizador indica o tema a testar (por exem
   </div>
   <figcaption>Geração de quiz</figcaption>
 </figure>
+
+
+Cada pergunta é respondida diretamente na interface, selecionando a opção pretendida e confirmando a resposta. Independentemente de a resposta estar correta ou incorreta, o GamiBot fornece **feedback imediato**, incluindo:
+- Indicação do resultado da resposta;
+- Uma **justificação explicativa**, reforçando a aprendizagem;
+- Mensagens motivacionais que incentivam a continuidade do quiz.
+
+O quiz integra ainda um sistema de **vidas**, representado por ícones visuais:
+- Por defeito, cada utilizador inicia com **3 vidas**;
+- Uma vida é perdida sempre que a resposta é incorreta;
+- O número de vidas é **configurável pelo administrador/docente**.
+
+#### Resultados Finais e Progresso
+No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**, incluindo a pontuação obtida e uma análise detalhada de cada resposta.
+
+Para cada questão, o utilizador pode visualizar:
+- A resposta dada;
+- A resposta correta;
+- Uma explicação justificativa, reforçando os conceitos essenciais;
+- Sugestões de estudo personalizadas para melhorar o desempenho futuro.
+
+<figure style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="../../public/images/user-guide/fig_05.png" alt="Geração de quiz" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_06.png" alt="Geração de quiz" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_07.png" alt="Geração de quiz" style="width: 30%;">
+  </div>
+  <figcaption>Geração de quiz</figcaption>
+</figure>
+
+O quiz integra ainda um sistema de **vidas**, representado por ícones visuais:
+- Por defeito, cada utilizador inicia com **3 vidas**;
+- Uma vida é perdida sempre que a resposta é incorreta;
+- O número de vidas é **configurável pelo administrador/docente**.
+
 
 ### Esclarecimento de Dúvidas
 
