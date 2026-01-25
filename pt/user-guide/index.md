@@ -108,7 +108,23 @@ Esta funcionalidade é especialmente útil para revisão de conteúdos, consolid
 
 ### Esclarecer Dúvidas
 
-Pode fazer perguntas sobre o conteúdo do curso, e o GamiBot responderá com base nos materiais disponibilizados.
+A funcionalidade **Esclarecer Dúvidas** permite ao utilizador colocar questões em linguagem natural sobre os conteúdos da unidade curricular. O GamiBot analisa a pergunta e responde com base nos materiais disponibilizados no Moodle, apresentando explicações claras e contextualizadas, podendo incluir definições, exemplos e referências aos documentos de apoio do curso.
+
+<figure style="text-align: center;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="../../public/images/user-guide/fig_10.png" alt="Esclarecer dúvidas" style="width: 30%;">
+  </div>
+  <figcaption>Esclarecer dúvidas</figcaption>
+</figure>
+
+Esta funcionalidade é especialmente útil para:
+- Esclarecer conceitos teóricos;
+- Apoiar o estudo autónomo;
+- Orientar o estudante sobre por onde começar ou o que rever;
+- Facilitar o acesso rápido à informação relevante.
+
+Desta forma, o GamiBot funciona como um apoio imediato ao estudo, disponível a qualquer momento.
+
 
 ### Gamificação
 
