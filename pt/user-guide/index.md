@@ -30,7 +30,9 @@ Para aceder ao GamiBot:
 3. Clique no ícone para abrir a janela de interação.
 
 <figure style="text-align: center;">
-  <img src="../../public/images/user-guide/fig_01.png" alt="Interface principal do GamiBot" style="display: block; margin: 0 auto; width: 50%;">
+  <div style="display: flex; justify-content: center; gap: 10px;">
+    <img src="../../public/images/user-guide/fig_01.png" alt="Interface principal do GamiBot" style="width: 50%;">    
+  </div>
   <figcaption>Interface principal do GamiBot</figcaption>
 </figure>
 
@@ -54,9 +56,9 @@ Após a seleção do tipo de quiz, o utilizador indica o tema a testar (por exem
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_02.png" alt="Geração de quiz" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_03.png" alt="Geração de quiz" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_04.png" alt="Geração de quiz" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_02.png" alt="Geração de quiz" style="width: 40%;">
+    <img src="../../public/images/user-guide/fig_03.png" alt="Geração de quiz" style="width: 40%;">
+    <img src="../../public/images/user-guide/fig_04.png" alt="Geração de quiz" style="width: 40%;">
   </div>
   <figcaption>Geração de quiz</figcaption>
 </figure>
@@ -73,9 +75,9 @@ No final do quiz, o GamiBot apresenta um **resumo do desempenho do utilizador**,
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_05.png" alt="Geração de quiz" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_06.png" alt="Geração de quiz" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_07.png" alt="Geração de quiz" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_05.png" alt="Geração de quiz" style="width: 40%;">
+    <img src="../../public/images/user-guide/fig_06.png" alt="Geração de quiz" style="width: 40%;">
+    <img src="../../public/images/user-guide/fig_07.png" alt="Geração de quiz" style="width: 40%;">
   </div>
   <figcaption>Geração de quiz</figcaption>
 </figure>
@@ -93,8 +95,8 @@ A funcionalidade **Resumir Matéria** permite ao utilizador obter resumos autom�
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_08.png" alt="Resumir matéria" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_09.png" alt="Resumir matéria" style="width: 30%;">    
+    <img src="../../public/images/user-guide/fig_08.png" alt="Resumir matéria" style="width: 40%;">
+    <img src="../../public/images/user-guide/fig_09.png" alt="Resumir matéria" style="width: 40%;">    
   </div>
   <figcaption>Resumir matéria</figcaption>
 </figure>
@@ -112,7 +114,7 @@ A funcionalidade **Esclarecer Dúvidas** permite ao utilizador colocar questões
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_10.png" alt="Esclarecer dúvidas" style="width: 30%;">
+    <img src="../../public/images/user-guide/fig_10.png" alt="Esclarecer dúvidas" style="width: 40%;">
   </div>
   <figcaption>Esclarecer dúvidas</figcaption>
 </figure>
@@ -137,8 +139,8 @@ Através da interação com o GamiBot, os utilizadores acumulam:
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_11.png" alt="Gamificação" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_12.png" alt="Gamificação" style="width: 30%;">    
+    <img src="../../public/images/user-guide/fig_11.png" alt="Gamificação" style="width: 40%;">
+    <img src="../../public/images/user-guide/fig_12.png" alt="Gamificação" style="width: 40%;">    
   </div>
   <figcaption>Gamificação</figcaption>
 </figure>
@@ -150,6 +152,3 @@ A área de progresso permite ainda visualizar:
 
 Estas mecânicas transformam a interação com o GamiBot numa experiência mais envolvente, incentivando a continuidade do estudo e a melhoria progressiva do desempenho.
 
-
-<!--![Painel de Gamificação](/images/user-guide/gamification.png)-->
-*Figura 2: Painel de Gamificação*
