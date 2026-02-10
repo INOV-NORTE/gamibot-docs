@@ -30,8 +30,6 @@ export default defineConfig({
           { text: 'Setup', link: '/en/setup/moodle' },
           { text: 'Workflows', link: '/en/workflows/data-ingestion' },
           { text: 'Gamification', link: '/en/gamification/overview' },
-          { text: 'Integration', link: '/en/integration/moodle-plugin' },
-          { text: 'Deployment', link: '/en/deployment/architecture' }
         ],
         sidebar: {
           '/en/': [
@@ -125,8 +123,6 @@ export default defineConfig({
           { text: 'Configuração', link: '/pt/setup/moodle' },
           { text: 'Fluxos de Trabalho', link: '/pt/workflows/data-ingestion' },
           { text: 'Gamificação', link: '/pt/gamification/overview' },
-          { text: 'Integração', link: '/pt/integration/moodle-plugin' },
-          { text: 'Implantação', link: '/pt/deployment/architecture' }
         ],
         sidebar: {
           '/pt/': [

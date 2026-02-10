@@ -31,7 +31,7 @@ To access GamiBot:
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_01.png" alt="Main GamiBot interface" style="width: 40%;">    
+    <img src="/images/user-guide/fig_01.png" alt="Main GamiBot interface" style="width: 40%;">    
   </div>
   <figcaption>Main GamiBot interface</figcaption>
 </figure>
@@ -56,9 +56,9 @@ After selecting the quiz type, the user indicates the topic to be tested (e.g., 
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_02.png" alt="Quiz generation" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_03.png" alt="Quiz generation" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_04.png" alt="Quiz generation" style="width: 30%;">
+    <img src="/images/user-guide/fig_02.png" alt="Quiz generation" style="width: 30%;">
+    <img src="/images/user-guide/fig_03.png" alt="Quiz generation" style="width: 30%;">
+    <img src="/images/user-guide/fig_04.png" alt="Quiz generation" style="width: 30%;">
   </div>
   <figcaption>Quiz generation</figcaption>
 </figure>
@@ -76,9 +76,9 @@ At the end of the quiz, GamiBot presents a **summary of the user’s performance
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_05.png" alt="Quiz results" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_06.png" alt="Quiz results" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_07.png" alt="Quiz results" style="width: 30%;">
+    <img src="/images/user-guide/fig_05.png" alt="Quiz results" style="width: 30%;">
+    <img src="/images/user-guide/fig_06.png" alt="Quiz results" style="width: 30%;">
+    <img src="/images/user-guide/fig_07.png" alt="Quiz results" style="width: 30%;">
   </div>
   <figcaption>Quiz results and feedback</figcaption>
 </figure>
@@ -95,8 +95,8 @@ The **Summarize Content** feature allows users to obtain automatic and structure
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_08.png" alt="Summarize content" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_09.png" alt="Summarize content" style="width: 30%;">    
+    <img src="/images/user-guide/fig_08.png" alt="Summarize content" style="width: 30%;">
+    <img src="/images/user-guide/fig_09.png" alt="Summarize content" style="width: 30%;">    
   </div>
   <figcaption>Summarize content</figcaption>
 </figure>
@@ -114,7 +114,7 @@ The **Clarify Doubts** feature allows users to ask questions in natural language
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_10.png" alt="Clarify doubts" style="width: 30%;">
+    <img src="/images/user-guide/fig_10.png" alt="Clarify doubts" style="width: 30%;">
   </div>
   <figcaption>Clarify doubts</figcaption>
 </figure>
@@ -138,8 +138,8 @@ Through interaction with GamiBot, users accumulate:
 
 <figure style="text-align: center;">
   <div style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../../public/images/user-guide/fig_11.png" alt="Gamification" style="width: 30%;">
-    <img src="../../public/images/user-guide/fig_12.png" alt="Gamification" style="width: 30%;">    
+    <img src="/images/user-guide/fig_11.png" alt="Gamification" style="width: 30%;">
+    <img src="/images/user-guide/fig_12.png" alt="Gamification" style="width: 30%;">    
   </div>
   <figcaption>Gamification</figcaption>
 </figure>
