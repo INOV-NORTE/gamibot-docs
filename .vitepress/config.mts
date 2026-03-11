@@ -53,7 +53,8 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Moodle Setup', link: '/en/setup/moodle' },
-                { text: 'Request Credentials', link: '/en/setup/request-credentials' }
+                { text: 'Request Credentials', link: '/en/setup/request-credentials' },
+                { text: 'Test GamiBot', link: '/en/setup/test' }
               ]
             },
             {
@@ -146,7 +147,8 @@ export default defineConfig({
               collapsed: false,
               items: [
                 { text: 'Configuração do Moodle', link: '/pt/setup/moodle' },
-                { text: 'Solicitar Credenciais', link: '/pt/setup/request-credentials' }
+                { text: 'Solicitar Credenciais', link: '/pt/setup/request-credentials' },
+                { text: 'Testar o GamiBot', link: '/pt/setup/test' }
               ]
             },
             {
